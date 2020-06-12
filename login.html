@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Sonrisas</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"> <!--bootstrap css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css"> <!--Icono Login CSS-->
+    <link rel="stylesheet" href="css/estilos.css"> <!--Estilos CSS-->
+</head>
+
+<body>
+    <nav class="navbar navbar-light navbar-expand-lg shadow-sm clean-navbar" style="padding-bottom: 0px;padding-top: 0px;">
+        <div class="container"><img src="img/logo_transparent-web.png" width="130" height="130" alt="logo"><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="navbar-toggler-icon"></span></button>
+            <div
+                class="collapse navbar-collapse" id="navcol-1">
+                <ul class="nav navbar-nav d-lg-flex mr-auto justify-content-lg-end justify-content-xl-end" style="font-size: 16px;">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="quienessomos.html">Quienes somos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="convenios.html">Convenios</a></li>
+                    <li class="nav-item"><a class="nav-link" href="servicios.html">Servicios</a></li>
+                    <li class="nav-item"><a class="nav-link" href="testimonios.html">testimonios</a></li>
+                    <li class="nav-item"><a class="nav-link" href="reserva.html">Reserva online</a></li>
+                    <li class="nav-item d-lg-flex"><a class="nav-link" href="contacto.html">contacto</a></li>
+                </ul>
+                <ul class="nav navbar-nav">
+                    <li class="nav-item"><a class="nav-link text-primary d-lg-flex align-items-lg-end active" style="height: 34px;" href="login.html">Login&nbsp;<i class="icon-user-following" style="font-size: 20px;"></i></a></li>
+                </ul>
+        </div>
+        </div>
+    </nav>
+    <main>
+        <section class="clean-block clean-form dark" style="background-color: rgba(246,246,246,0.2);">
+            <div class="container">
+                <div class="block-heading">
+                    <h2 class="text-info">Acceso Odontológico</h2>
+                    <p class="text-center d-xl-flex" style="max-width: 600px;">Encontrarás el perfil médico correspondiente, además de&nbsp;hacer modificaciones a los pacientes y sus horarios.</p>
+                </div>
+                <form>
+                    <div class="form-group"><label for="email">Correo electrónico</label><input class="form-control item" type="email" id="email" required="" minlength="6" maxlength="35" inputmode="email"></div>
+                    <div class="form-group"><label for="password">Contraseña</label><input class="form-control" type="password" id="password" required="" minlength="6" maxlength="12"></div>
+                    <div class="form-group">
+                        <div class="form-check"><input class="form-check-input" type="checkbox" id="checkbox"><label class="form-check-label" for="checkbox">recordar</label></div>
+                    </div><a class="btn btn-primary btn-block" role="button" href="tableromedico.html">Login</a></form>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-dark page-footer dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <h5>Odontológico</h5>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="login.html">Login</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-4">
+                    <h5>Quienes somos</h5>
+                    <ul>
+                        <li><a href="quienessomos.html">Nuestra empresa</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                        <li><a href="testimonios.html">Testimonios</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-4">
+                    <h5>Servicios</h5>
+                    <ul>
+                        <li><a href="convenios.html">Convenios y Formas de pago</a></li>
+                        <li><a href="reserva.html">Reserva online</a></li>
+                        <li><a href="examenes.html">Resultado de Exámenes</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="bg-dark border-dark footer-copyright" style="margin-top: 0px;">
+            <p>© 2020 &nbsp;- &nbsp;Sebastián Acevedo G. &nbsp;- &nbsp;Talento Digital Viña<br></p>
+        </div>
+    </footer>
+</body>
+
+</html>
